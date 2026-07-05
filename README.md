@@ -24,3 +24,24 @@ A cloud-native, serverless application built with Python and deployed to Azure F
 
 
 https://youtu.be/HNPYsQ86APs
+```
+
+
+---
+
+## Deployment & Verification Evidence
+
+### 1. Successful Azure CLI Deployment
+Proof of the compilation and green pipeline deployment from the VS Code terminal environment:
+<img width="1918" height="856" alt="image" src="https://github.com/user-attachments/assets/f1fef1d2-9ab9-49a7-953e-99a0bc849855" />
+
+### 2. Live Text Analyzer Response
+Verification of the live HTTP execution returning data metrics and successfully writing state payloads directly into the Cosmos DB instance:
+
+
+<img width="1918" height="721" alt="image" src="https://github.com/user-attachments/assets/1f83bb00-8ed0-4048-a376-7adb319ab839" />
+
+### 3. Cosmos DB History Retrieval
+The live history execution dynamically parsing out the latest database entries along with Cosmos internal document metadata (`_rid`, `_self`, `_etag`):
+
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/b7294b06-d629-4276-92c9-ccb6f9acf995" />
