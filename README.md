@@ -4,12 +4,12 @@ A cloud-native, serverless application built with Python and deployed to Azure F
 ## Features
 * **Text Analysis Engine (`/api/textanalyzer`):** An HTTP-triggered endpoint that accepts a `text` query parameter, runs calculations .
 
-  https://harshdeep-func-lab1-a4f6ctb6e9bddgfk.canadacentral-01.azurewebsites.net/api/textanalyzer?text=%20demo%20video%20message%20here!
+ ## https://harshdeep-func-lab1-a4f6ctb6e9bddgfk.canadacentral-01.azurewebsites.net/api/textanalyzer?text=%20demo%20video%20message%20here!
 
   
 * **History Retrieval Engine (`/api/getanalysishistory`):** An HTTP-triggered endpoint that pulls previous analysis records directly from the database
 
- https://harshdeep-func-lab1-a4f6ctb6e9bddgfk.canadacentral-01.azurewebsites.net/api/getanalysishistory?limit=5
+ ## https://harshdeep-func-lab1-a4f6ctb6e9bddgfk.canadacentral-01.azurewebsites.net/api/getanalysishistory?limit=5
   
 ## Technology Stack
 * **Language:** Python 3.10+
